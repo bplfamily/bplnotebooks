@@ -4,11 +4,12 @@ This is a repository for Jupyter notebooks, and a Python environment in which to
 
 # Run
 
-To get started, run the following commands.
+To get started, run the following commands to set up the environment.
 
 ```bash
 git clone github.com/r/bplfamily/bplnotebooks/
 cd bplnotebooks
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
